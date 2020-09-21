@@ -32,9 +32,9 @@ output "centos_7_x64" {
   value = local.os_zipped["CentOS 7 x64"]
 }
 
-output "coreos_stable" {
-  value = local.os_zipped["CoreOS Stable"]
-}
+# output "coreos_stable" {
+#   value = local.os_zipped["CoreOS Stable"]
+# }
 
 output "backup" {
   value = local.os_zipped["Backup"]
