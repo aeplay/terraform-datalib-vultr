@@ -104,9 +104,9 @@ output "ubuntu_1804_x64" {
   value = local.os_zipped["Ubuntu 18.04 x64"]
 }
 
-output "ubuntu_1910_x64" {
-  value = local.os_zipped["Ubuntu 19.10 x64"]
-}
+# output "ubuntu_1910_x64" {
+#   value = local.os_zipped["Ubuntu 19.10 x64"]
+# }
 
 output "ubuntu_2004_x64" {
   value = local.os_zipped["Ubuntu 20.04 x64"]
