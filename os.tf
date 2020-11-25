@@ -12,13 +12,13 @@ output "windows_2012_r2_x64" {
   value = local.os_zipped["Windows 2012 R2 x64"]
 }
 
-output "centos_6_x64" {
-  value = local.os_zipped["CentOS 6 x64"]
-}
+# output "centos_6_x64" {
+#   value = local.os_zipped["CentOS 6 x64"]
+# }
 
-output "centos_6_i386" {
-  value = local.os_zipped["CentOS 6 i386"]
-}
+# output "centos_6_i386" {
+#   value = local.os_zipped["CentOS 6 i386"]
+# }
 
 output "custom" {
   value = local.os_zipped["Custom"]
@@ -72,17 +72,17 @@ output "centos_8_x64" {
   value = local.os_zipped["CentOS 8 x64"]
 }
 
-output "openbsd_66_x64" {
-  value = local.os_zipped["OpenBSD 6.6 x64"]
-}
+# output "openbsd_66_x64" {
+#   value = local.os_zipped["OpenBSD 6.6 x64"]
+# }
 
 output "openbsd_67_x64" {
   value = local.os_zipped["OpenBSD 6.7 x64"]
 }
 
-output "fedora_31_x64" {
-  value = local.os_zipped["Fedora 31 x64"]
-}
+# output "fedora_31_x64" {
+#   value = local.os_zipped["Fedora 31 x64"]
+# }
 
 output "fedora_32_x64" {
   value = local.os_zipped["Fedora 32 x64"]
